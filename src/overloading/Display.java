@@ -1,9 +1,9 @@
 package overloading;
 
 public class Display {
-	
+
 	//in overloading all Method having same name but different argument type.
-	
+
 	public void show() {
 		System.out.println("No-arg Method");
 	}
@@ -27,7 +27,7 @@ public class Display {
 	public void show(String s) {
 		System.out.println("String-Arg Method " + s);
 	}
-	
+
 	public static void main(String[] args) {
 		Display d = new Display();
 		d.show();
@@ -36,6 +36,5 @@ public class Display {
 		d.show(10.5f);
 		d.show(10.10);
 		d.show("Abhay");
-		
 	}
 }

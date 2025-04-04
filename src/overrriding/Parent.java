@@ -7,6 +7,6 @@ public class Parent {
 	}
 
 	public void marry() {
-		System.out.println("Married with Software Developer according to your parent");
+		System.out.println("Married in Cast according to your parent");
 	}
 }

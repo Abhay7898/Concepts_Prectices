@@ -1,7 +1,7 @@
 package cloneing;
 
-		/*if your class content any refrence variable the shallow cloning may 
-		  not work properly and there is data inconsistency problem*/ 
+		/*if your class content any refrence variable the shallow cloning may
+		  not work properly and there is data inconsistency problem*/
 
 public class ShallowCloning implements Cloneable {
 	Student s;

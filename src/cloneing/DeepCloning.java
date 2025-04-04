@@ -9,10 +9,10 @@ public class DeepCloning {
 		this.s = s;
 		this.id = id;
 	}
-	
-	/*if your class content any refrence variable then better to go for Deep Cloning, and may 
+
+	/*if your class content any refrence variable then better to go for Deep Cloning, and may
 	  it work properly and there is no data inconsistency problem in Deep Cloning
-	*/ 
+	*/
 
 	@Override
 	public Object clone() throws CloneNotSupportedException {
