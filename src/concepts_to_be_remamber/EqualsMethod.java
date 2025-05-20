@@ -1,6 +1,6 @@
 package concepts_to_be_remamber;
 
-import cloneing.Test;
+
 
 public class EqualsMethod {
 
@@ -12,6 +12,7 @@ public class EqualsMethod {
 		this.name = name;
 	}
 
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj) {
@@ -25,6 +26,8 @@ public class EqualsMethod {
 		}
 		return false;
 	}
+	
+	
 
 	public static void main(String[] args) {
 
@@ -35,9 +38,5 @@ public class EqualsMethod {
 		EqualsMethod e3 = null;
 		System.out.println(e.equals(e3));
 		System.out.println(e.equals("Abhay"));
-
-		Test t = new Test();
-		System.out.println(e.equals(t));
-
 	}
 }
